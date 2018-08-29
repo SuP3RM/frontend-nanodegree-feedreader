@@ -1,13 +1,13 @@
 # Udacity Feed Reader Testing Project
-=====================================
-Steps required to successfully run the application.
 
-Simply download the project, double-click on index.html and browse locally (Open from browser window).
+### Steps required to successfully run the application.
 
-For a more detailed and in-depth step-by-step instructions jump to "How will I complete this project?"
+Download the project from GitHub, double-click on index.html (open from browser window). Then scroll to bottom and browse locally to see test.
+
+For a more detailed and in-depth step-by-step instructions jump to "How will I complete this project?" section below
 
 # Credit
-=========
+
 Major credit from Matthew Cranford whose walkthrough helped tremendously!
 Without his walkthrough, I would've been stuck in the last sections of this project and would've taken longer to complete. Also, thank you to Rodrick Bloomfield, for his Feedreader live walkthrough.   
 
