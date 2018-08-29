@@ -8,7 +8,7 @@ For a more detailed and in-depth step-by-step instructions jump to "How will I c
 
 # Credit
 
-Major credit from Matthew Cranford whose walkthrough helped tremendously!
+Major credit to [Matthew Cranford](https://matthewcranford.com/about/) whose walkthrough helped tremendously!
 Without his walkthrough, I would've been stuck in the last sections of this project and would've taken longer to complete. Also, thank you to Rodrick Bloomfield, for his Feedreader live walkthrough.   
 
 # Project Overview
