@@ -31,7 +31,7 @@ $(function() {
 
     it('RSS are defined', () => {
       expect(allFeeds).toBeDefined();
-      expect(allFeeds.length).toBeGreaterThan(0);
+      expect(allFeeds.length).not.toBe(0)
     });
 
     /* Write a test that loops through each feed
@@ -42,8 +42,8 @@ $(function() {
     // almost alike as previous test with slight name changes
     it('URL defined', () => {
       for (let feed of allFeeds) {
-        expect(feed.url.length).toBeDefined();
-        expect(allFeeds.length).toBeGreaterThan(0);
+        expect(feed.url).toBeDefined();
+        expect(feed.url.length).not.toBe(0)
       }
     });
 
@@ -55,8 +55,8 @@ $(function() {
     // same as previous test with slight name changes
     it('Name is not empty', () => {
       for (let names of allFeeds) {
-        expect(names.name.length).toBeDefined();
-        expect(allFeeds.length).toBeGreaterThan(0);
+        expect(names.name).toBeDefined();
+        expect(names.name.length).not.toBe(0)
       }
     });
 
@@ -108,8 +108,8 @@ $(function() {
     });
 
     it('Completes it work', () => {
-      const feed = $('.feed .entry');  // suggested to use from reviwer
-      expect(feed.children.length > 0).toBe(true);
+      const feed = $('.feed .entry');  // suggested to use from reviewer
+      expect(feed.length > 0).toBe(true);
     });
   });
 
